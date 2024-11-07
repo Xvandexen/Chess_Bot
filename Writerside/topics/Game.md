@@ -17,6 +17,7 @@ Atom Values for colours
 ### Moves
 A list of Move maps
 
-### Piece rules
-A list containing rules for what a piece can and cannot do.  
-These rules are functions
+### Move rules
+A tuple consisting of a Piece atom and a function to collect all available moves
+
+
